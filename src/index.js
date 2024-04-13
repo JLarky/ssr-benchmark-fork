@@ -35,6 +35,10 @@ const handlers = [
     handler: await import("react-benchmark").then((x) => x.buildHandler()),
   },
   {
+    name: "strike",
+    handler: await import("strike-benchmark").then((x) => x.buildHandler()),
+  },
+  {
     name: "vue",
     handler: await import("vue-benchmark").then((x) => x.buildHandler()),
   },

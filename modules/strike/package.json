@@ -1,0 +1,16 @@
+{
+  "name": "strike-benchmark",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "true"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "types": "src/entry-server.d.ts",
+  "main": "src/entry-server.js"
+}
